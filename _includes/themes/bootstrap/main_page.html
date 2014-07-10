@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        {% include header.html %}
+        <link href="{{ BASE_PATH }}/main_page.css" rel="stylesheet">
+    </head>
+
+    <body>
+        {% include main_menu.html %}
+
+        <!-- Carousel
+        ================================================== -->
+        <header class="container text-center">
+            <h1>Полимерные наливные полы</h1>
+        </header>
+
+        <!-- CONTAINER -->
+        <div class="container">
+            {{ content }}
+        </div>
+
+        {% include JB/analytics %}
+        {% include metrika.html %}
+
+    </body>
+</html>

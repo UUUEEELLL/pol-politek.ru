@@ -1,0 +1,28 @@
+<!-- MAIN MENU -->
+<div class="mainMenu">
+	<div class="navbar navbar-default navbar-fixed-top myMainMenuNav" role="banner">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only"><a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			</div>
+			
+			<div class="navbar-collapse collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="{{ page.mainMenuIndex }}" ><a title="{{ site.title }}" href="{{ HOME_PATH }}">Главная</a></li>
+					<!--<li class="{{ page.mainMenuPaints }}" ><a title="" href="paints.html">Полимерные краски</a></li>-->
+                    <li class="{{ page.mainMenuCertificates }}" ><a title="Сертификаты на наливные полы" href="#certificates.html">Сертификаты</a></li>
+					<li class="{{ page.mainMenuPrice }}" ><a title="Стоимость наливных полов" href="#pricing.html">Стоимость</a></li>
+					<li class="{{ page.mainMenuAbout }}"><a title="" href="#about.html">О компании</a></li>
+					<li class="{{ page.mainMenuContacts }}" ><a title="Наливные полы Политек - контактные телефоны, адреса офиса и производства" href="contacts.html">Контакты</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div><!--./container-->
+	</div><!--./navbar-->  
+</div><!--./mainMenu-->

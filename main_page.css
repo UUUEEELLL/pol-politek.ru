@@ -1,0 +1,99 @@
+body{
+	background: url('/images/bg.jpg');
+}
+
+
+
+/* Customise Header */
+header{
+}
+
+header h1 {/* главный заголовок сайта */
+	font-family: 'Forum', cursive, sans-serif;
+	font-size: 48px;
+	color:#c9f2fd;
+	padding: 77px 0 20px 0;
+	margin: 0;
+}
+
+header p {/* анонс страницы под главным заголовком */
+	color:#E1E2E4;
+	font-family: 'Forum', sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	height: 122px;
+}
+
+// Подменю на главной странице
+div#mainPageSubMenu.row {
+    margin: 11px 0 77px 0;
+}
+
+
+/* Ассортимент, преимущества, стоимость на главной странице */
+#mainPageSubHeader {		
+}
+	
+#mainPageSubHeader h2 {
+	color:#87C1BE;
+	font-family: 'Forum', cursive;
+	font-size:27pt;
+}
+	
+#mainPageSubHeader p {
+	color:#E1E2E4;
+	font-size:11pt;
+	line-height:25px;
+	margin:13px 0;
+	padding: 0 17px;
+}
+
+hr {
+	margin: 17px 0 27px 0;
+}
+
+/* ______________________________________ */
+/* ************************************** */
+@media screen and (min-width: 768px) {
+	
+	/* Sub Cats */
+	#mainPageSubHeader {
+		
+	}
+	
+	#mainPageSubHeader h2 {
+		color:#87C1BE;
+		/*a9dad7 7bddd8;*/
+		font-family: 'Forum', cursive;
+		font-size:30pt;
+	}
+	
+	#mainPageSubHeader p {
+		color:#E1E2E4;
+		font-size:11pt;
+		line-height:25px;
+		margin:13px 0;
+	}
+	
+	/* Customise Header */
+	header{
+	}
+	
+	header h1 {
+		margin: 33px 0;
+		padding: 0;
+		font-size: 77px;
+	}
+	
+	header p {
+		font-size: 18px;
+		line-height: 33px;
+	}
+	
+	header small {
+	}	
+	
+	
+	
+	
+}

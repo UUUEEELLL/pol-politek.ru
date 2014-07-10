@@ -1,0 +1,12 @@
+
+http://pol-politek.ru/archive.html
+http://pol-politek.ru/atom.xml
+http://pol-politek.ru/categories.html
+http://pol-politek.ru/contacts.html
+http://pol-politek.ru/index.html
+http://pol-politek.ru/pages.html
+http://pol-politek.ru/rss.xml
+http://pol-politek.ru/sitemap.txt
+http://pol-politek.ru/tags.html
+
+http://pol-politek.ru/lessons/2011/12/29/jekyll-introduction

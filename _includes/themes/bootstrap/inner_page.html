@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      {% include header.html %}
+  </head>
+
+<body>
+	{% include main_menu.html %}
+
+	<!-- Header
+	================================================== -->
+	<header class="container text-center">
+		<h1>Полимерные наливные полы</h1>
+		<p>
+            {{ page.subTitle }}
+            <span class="topSpace">
+                <a class="btn btn-warning" title="Краска политек - контакты" href="/contacts.html"><span class="glyphicon glyphicon-phone-alt"></span> +7 (495) 643-8744 </a>
+                <!--<a class="btn btn-sm btn-success" href="/order.html" title="заказать полимерную краску" role="button"><span class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>-->
+                <!--<a class="btn btn-sm btn-primary" href="/#" data-toggle="modal" data-target="#modalShipping" role="button"><span class="glyphicon glyphicon-plane"></span> Доставка</a>-->
+                <!--<a class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modalPayment" role="button"><span class="glyphicon glyphicon-usd"></span> Оплата</a>-->
+                <!--<button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#ralModal" role="button"><span class="glyphicon glyphicon-tint"></span> Цвета краски</button>-->
+            </span>
+        </p>
+	</header>
+
+	<!-- Content container -->
+	<div class="container">
+		{{ content }}
+	</div>
+    <br><br>
+
+
+    {% include JB/analytics %}
+    {% include metrika.html %}
+</body>
+</html>

@@ -1,0 +1,366 @@
+body{
+	color: #628896;
+	font-family: 'Forum', cursive, sans-serif;
+	font-size: 15px;
+	background: url('/images/bgInner.jpg') no-repeat top;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Forum', cursive, sans-serif;
+}
+
+/* Картинки на главной странице */
+#mainPageSubHeader img {
+    width: 144px;
+    height: 144px;
+}
+
+/* Размер большого модального окна */
+#myPricingModal {
+    width: 888px;
+}
+
+/* Карусель сертификатов */
+#well-certificates {
+    width: 444px;
+    margin: auto;
+}
+
+#carousel-certificates .carousel-indicators {
+    margin-bottom: -10px;
+}
+
+#carousel-certificates h3,
+#carousel-certificates p {
+
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 15px 25px;
+    background: #333333;
+    background: rgba(99, 99, 99, 0.45);
+}
+
+/* Кнопка Наверх - Pill style */
+#scrollUp {
+    bottom: 20px;
+    right: 30px;
+    background: #555;
+    color: #828282;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+    opacity: .9;
+    padding: 10px 20px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-transition: background 200ms linear;
+    -moz-transition: background 200ms linear;
+    transition: background 200ms linear;
+    -webkit-backface-visibility: hidden;
+
+    -webkit-box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #E6E6E6;
+    background-image: -moz-linear-gradient(top, #E6E6E6, #DEDEDE);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E6E6E6), to(#DEDEDE));
+    background-image: -webkit-linear-gradient(top, #E6E6E6, #DEDEDE);
+    background-image: -o-linear-gradient(top, #E6E6E6, #DEDEDE);
+    background-image: linear-gradient(to bottom, #E6E6E6, #DEDEDE);
+    background-repeat: repeat-x;
+
+}
+#scrollUp:hover {
+    background: #DEDEDE;
+    color: rgb(77, 77, 77);
+
+}
+
+/* Order Form Css */
+.tooltip-inner {
+  background-color: #3984B9;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #3984B9;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #3984B9;
+}
+
+
+#paintWell form {
+  margin-bottom: 11px;
+}
+
+.ral-button {
+  width: 94px;
+  height: 94px;
+  margin: 7px;
+}
+
+.btn-choose-ral {
+  width: 222px;
+}
+
+
+
+.no-padding {
+	padding:0;
+}
+
+.bs-callout {
+	margin: 20px 0;
+	padding: 20px;
+	border-left: 3px solid #eee;
+}
+
+.bs-callout-info {
+	background-color: #f4f8fa;
+	border-color: #bce8f1;
+}
+
+.bs-callout-danger {
+	background-color: #fdf7f7;
+	border-color: #eed3d7;
+}
+
+/* Customise Header */
+header{
+}
+
+header H1 {/* главный заголовок сайта */
+	font-family: 'Forum', cursive, sans-serif;
+	font-size: 48px;
+	color:#c9f2fd;
+	padding: 77px 0 20px 0;
+	margin: 0;
+}
+
+header P {/* анонс страницы под главным заголовком */
+	color:#E1E2E4;
+	font-family: 'Forum', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	height: 183px;
+	margin-bottom: 27px;
+}
+
+header span.topSpace {/* кнопки под анонсом */
+    display: block;
+	padding-top: 13px;
+}
+
+/* Button customise */
+.btn-primary{
+	color: #D6F9FC;
+	background-color: #69a5ad;
+	border-color: #69a5ad;
+}
+
+.btn-primary:hover{
+	color: #5B7E8F;
+	background-color: #9AD4DE;
+	border-color: #BFF0F7;
+}
+
+
+/* Panel customise */
+.panel-default {
+	border-color: #BCCFD4;
+}
+.panel-default > .panel-heading {
+	color: #5D8E9C;
+	background-color: #D4E5E9;
+	border-color: #BCCFD4;
+}
+
+.panel-info {
+	border-color: #7194b7;
+}
+.panel-info > .panel-heading {
+	color: #EBFFE9;
+	background-color: #599E96;
+	border-color: #7194b7;
+}
+
+.panel-warning {
+	border-color: #BA9147;
+}
+.panel-warning > .panel-heading {
+	color: #498F8F;
+	background-color: #EFCD9A;
+	border-color: #BA9147;
+}
+
+
+
+/* Tabs customise 
+.nav-tabs > li > a {
+	padding-left: 7px;
+	padding-right: 7px;
+	font-size: 12px;
+}
+*/
+
+/* Table customise */
+.table-bordered {
+	border-color: #BCCFD4;
+}
+
+.table-hover > tbody > tr:hover > td, 
+.table-hover > tbody > tr:hover > th {
+	background-color: #F1F8F9;
+}
+
+.table-bordered > thead > tr > th, 
+.table-bordered > tbody > tr > th, 
+.table-bordered > tfoot > tr > th, 
+.table-bordered > thead > tr > td, 
+.table-bordered > tbody > tr > td, 
+.table-bordered > tfoot > tr > td {
+	border: 1px solid #BCCFD4;
+}
+
+
+/* Navbar (top menu) */
+.navbar-default .navbar-nav > li > a {
+	color: #A1CCC7;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+	color: #FDFDFD;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #38546B;
+	background-color: #C9E0E6;
+}
+
+
+.mainMenu{
+	border-bottom: solid 2px #7194b7;
+}
+
+.myMainMenuNav{
+	border-bottom: solid 2px #41646e;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: #3D6579;
+	background-image: none;
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto auto;
+}
+
+
+
+/* ______________________________________ */
+/* ************************************** */
+@media screen and (min-width: 768px) {
+	body{
+		padding-top: 52px;
+	}
+	
+	/* Customise Main Menu */
+	.mainMenu{
+		border-bottom: solid 2px #7194b7;
+				font-family: 'Forum', cursive, sans-serif;
+	}
+	
+	.myMainMenuNav{
+		border-bottom: solid 2px #41646e;
+		background-attachment: scroll;
+		background-clip: border-box;
+		background-color: #339999;
+		background-image: url("/images/mainMenuBg.png");
+		background-origin: padding-box;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		background-size: auto auto;
+	}
+	
+	
+	/* Customise Header */
+	header{
+	}
+	
+	header H1 {/* главный заголовок сайта */
+		font-family: 'Forum', cursive, sans-serif;
+		font-size: 83px;
+		color:#c9f2fd;
+		padding: 27px 0;
+		margin: 0;
+	}
+	
+	header P {/* анонс страницы под главным заголовком */
+		color:#E1E2E4;
+		font-family: 'Forum', sans-serif;
+		font-size: 17px;
+		line-height: 30px;
+		height: 160px;
+	}
+	
+	header span.topSpace {/* кнопки под анонсом */
+        display: block;
+		padding-top: 13px;
+	}
+	
+	
+	/*		Navbar styles	*/
+	.navbar-nav{
+	        margin: 0 auto;
+	        display: table;
+	        table-layout: fixed;
+	        float:none;
+	}
+		 
+	.navbar-default .navbar-brand {
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		color:#ffb160;
+		font-size: 16pt;
+		line-height: 20px;
+	}
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus {
+	    text-decoration: none;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover, 
+	.navbar-default .navbar-nav > li > a:focus {
+	    text-decoration: none;
+	    color: #87C1BE;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		font-size: 15pt;
+		color: #E1E2E4;
+	}
+	
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus {
+	    background-color: transparent;
+	    /*color: #ffb160;*/
+		 color:#87C1BE;
+		 text-decoration: underline;
+	}
+}
+
+
+/* ______________________________________ */
+/* ************************************** */
+@media screen and (min-width: 1200px) {
+	
+	
+}
